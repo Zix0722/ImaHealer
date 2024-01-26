@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Gameplay">
+      <UniqueIdentifier>{9e36f244-746f-4a6f-8330-eae8fe6b8a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{14a652e4-10f3-4d2b-9c11-592bb74c9664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Char">
+      <UniqueIdentifier>{d7f5f442-8805-4dc3-975d-12fda03f8d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\UI">
+      <UniqueIdentifier>{96ad7622-252e-40b8-be6a-4b4449976c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Gameplay\Skills">
+      <UniqueIdentifier>{28368d4d-727b-401e-a445-4a3e1270ca7b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowContext.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="CharDef.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Gameplay</Filter>
+    </ClCompile>
+    <ClCompile Include="Healer.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Mage.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Windows.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="HPBar.cpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillGroup.cpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="CastBar.cpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingNumberSystem.cpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingNumber.cpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="HealerSkillSet.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillEffect.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Buff.cpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Char</Filter>
+    </ClCompile>
+    <ClCompile Include="BossSkillsSet.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="TankSkillSet.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="WarriorSkillSet.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="MageSkillSet.cpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowContext.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="CharDef.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.hpp">
+      <Filter>Gameplay</Filter>
+    </ClInclude>
+    <ClInclude Include="Healer.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Mage.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.hpp">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="HPBar.hpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillGroup.hpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CastBar.hpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingNumberSystem.hpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingNumber.hpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="HealerSkillSet.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillEffect.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.hpp">
+      <Filter>Gameplay\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.hpp">
+      <Filter>Char</Filter>
+    </ClInclude>
+    <ClInclude Include="BossSkillsSet.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="TankSkillSet.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="WarriorSkillSet.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="MageSkillSet.hpp">
+      <Filter>Gameplay\Skills</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
